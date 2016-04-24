@@ -3,16 +3,16 @@
 const Model = require('trails-model')
 
 /**
- * @module User
+ * @module Module
  * @description TODO document Model
  */
-module.exports = class User extends Model {
+module.exports = class Module extends Model {
 
   static config () {
   }
 
   static schema (table) {
     table.increments('id').primary()
-    table.string('username')
+    table.string('name')
   }
 }

@@ -14,9 +14,11 @@
     "trailsjs"
   ],
   "dependencies": {
+    "github": "^0.2.4",
     "lodash": "^4.0",
     "trailpack-core": "^1.0.0-beta-3",
     "trailpack-hapi": "^1.0.0-beta-3",
+    "trailpack-knex": "^0.5.8",
     "trailpack-repl": "^1.0.0-beta-3",
     "trailpack-router": "^1.0.0-beta-4",
     "trails": "^1.0.0-beta-1",
